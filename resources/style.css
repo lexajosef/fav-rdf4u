@@ -1,0 +1,85 @@
+body > .container{
+    width:100%;
+}
+
+table td {
+    word-wrap: break-word !important;
+    word-break: break-all;
+}
+
+div.checkbox label{
+    word-wrap: break-word !important;
+    word-break: break-all;
+}
+
+.fixheight1 {
+    height:680px;
+}
+
+.node {
+    stroke: #fff;
+    fill:#ddd;
+    stroke-width: 1.5px;
+}
+
+.link {
+    fill: none;
+    stroke: #999;
+    stroke-opacity: .6;
+    stroke-width: 1px;
+}
+
+marker {
+    stroke: #999;
+    fill:rgba(124,240,10,0);
+}
+
+.node-text {
+    font: 11px sans-serif;
+    fill:black;
+}
+
+.link-text {
+    font: 9px sans-serif;
+    fill:grey;
+}
+
+#viz {
+    border:1px solid #bbb;
+}
+
+.viz-menu{
+    margin-top: 20px;
+}
+
+div#tblImage img{
+    margin-top:5px;
+    width:100%;
+    outline: 1px solid white;
+    outline-offset: -4px;
+}
+
+#tblBodyRDF small{
+    font-style: italic;
+}
+
+#tblBodyRDF small a{
+    color:#aaa; 
+}
+
+#tblBodyRDF small a:hover{
+    color:#337ab7;
+}
+
+.checkbox {
+    position:relative;
+    padding-right:30px;
+}
+.checkbox span.badge{
+    position:absolute;
+    right:0;
+}
+
+#tblProperties .checkbox{
+    border-bottom:solid 1px #eee;
+}
