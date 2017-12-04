@@ -1,0 +1,508 @@
+{
+    "Triples": [
+        {
+            "subject": { "type": "uri", "value": "http://commons.wikimedia.org/wiki/Special:FilePath/Katsuobushi.jpg?width=300" },
+            "predicate": { "type": "uri", "value": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" },
+            "object": { "type": "uri", "value": "http://dbpedia.org/ontology/Image" },
+            "vw": 0.33
+        },
+        {
+            "subject": { "type": "uri", "value": "http://commons.wikimedia.org/wiki/Special:FilePath/Katsuobushi.jpg" },
+            "predicate": { "type": "uri", "value": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" },
+            "object": { "type": "uri", "value": "http://dbpedia.org/ontology/Image" },
+            "vw": 0.33
+        },
+        {
+            "subject": { "type": "uri", "value": "http://www.w3.org/2002/07/owl#Thing" },
+            "predicate": { "type": "uri", "value": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" },
+            "object": { "type": "uri", "value": "http://www.w3.org/2002/07/owl#Class" },
+            "vw": 0.36
+        },
+        {
+            "subject": { "type": "uri", "value": "http://dbpedia.org/resource/Category:Japanese_condiments" },
+            "predicate": { "type": "uri", "value": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" },
+            "object": { "type": "uri", "value": "http://www.w3.org/2004/02/skos/core#Concept" },
+            "vw": 0.3
+        },
+        {
+            "subject": { "type": "uri", "value": "http://dbpedia.org/resource/Category:Umami_enhancers" },
+            "predicate": { "type": "uri", "value": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" },
+            "object": { "type": "uri", "value": "http://www.w3.org/2004/02/skos/core#Concept" },
+            "vw": 0.29
+        },
+        {
+            "subject": { "type": "uri", "value": "http://www.wikidata.org/entity/Q2095" },
+            "predicate": { "type": "uri", "value": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" },
+            "object": { "type": "uri", "value": "http://www.w3.org/2002/07/owl#Class" },
+            "vw": 0.37
+        },
+        {
+            "subject": { "type": "uri", "value": "http://www.wikidata.org/entity/Q2095" },
+            "predicate": { "type": "uri", "value": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" },
+            "object": { "type": "uri", "value": "http://www.wikidata.org/ontology#Item" },
+            "vw": 0.28
+        },
+        {
+            "subject": { "type": "uri", "value": "http://dbpedia.org/ontology/Food" },
+            "predicate": { "type": "uri", "value": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" },
+            "object": { "type": "uri", "value": "http://www.w3.org/2002/07/owl#Class" },
+            "vw": 0.39
+        },
+        {
+            "subject": { "type": "uri", "value": "http://dbpedia.org/ontology/Food" },
+            "predicate": { "type": "uri", "value": "http://www.w3.org/2002/07/owl#equivalentClass" },
+            "object": { "type": "uri", "value": "http://www.wikidata.org/entity/Q2095" },
+            "vw": 0.12
+        },
+        {
+            "subject": { "type": "uri", "value": "http://dbpedia.org/ontology/Food" },
+            "predicate": { "type": "uri", "value": "http://www.w3.org/2002/07/owl#equivalentClass" },
+            "object": { "type": "uri", "value": "http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#FunctionalSubstance" },
+            "vw": 0.11
+        },
+        {
+            "subject": { "type": "uri", "value": "http://dbpedia.org/resource/Japan" },
+            "predicate": { "type": "uri", "value": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" },
+            "object": { "type": "uri", "value": "http://www.wikidata.org/entity/Q486972" },
+            "vw": 0.45
+        },
+        {
+            "subject": { "type": "uri", "value": "http://dbpedia.org/resource/Japan" },
+            "predicate": { "type": "uri", "value": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" },
+            "object": { "type": "uri", "value": "http://dbpedia.org/class/yago/MemberStatesOfTheUnitedNations" },
+            "vw": 0.73
+        },
+        {
+            "subject": { "type": "uri", "value": "http://dbpedia.org/resource/Japan" },
+            "predicate": { "type": "uri", "value": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" },
+            "object": { "type": "uri", "value": "http://dbpedia.org/ontology/Location" },
+            "vw": 0.57
+        },
+        {
+            "subject": { "type": "uri", "value": "http://dbpedia.org/resource/Japan" },
+            "predicate": { "type": "uri", "value": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" },
+            "object": { "type": "uri", "value": "http://dbpedia.org/class/yago/Empires" },
+            "vw": 0.78
+        },
+        {
+            "subject": { "type": "uri", "value": "http://dbpedia.org/resource/Japan" },
+            "predicate": { "type": "uri", "value": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" },
+            "object": { "type": "uri", "value": "http://dbpedia.org/class/yago/Empire108557482" },
+            "vw": 0.72
+        },
+        {
+            "subject": { "type": "uri", "value": "http://dbpedia.org/resource/Japan" },
+            "predicate": { "type": "uri", "value": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" },
+            "object": { "type": "uri", "value": "http://dbpedia.org/class/yago/Group100031264" },
+            "vw": 0.54
+        },
+        {
+            "subject": { "type": "uri", "value": "http://dbpedia.org/resource/Japan" },
+            "predicate": { "type": "uri", "value": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" },
+            "object": { "type": "uri", "value": "http://dbpedia.org/class/yago/Domain108556491" },
+            "vw": 0.69
+        },
+        {
+            "subject": { "type": "uri", "value": "http://dbpedia.org/resource/Japan" },
+            "predicate": { "type": "uri", "value": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" },
+            "object": { "type": "uri", "value": "http://dbpedia.org/class/yago/YagoPermanentlyLocatedEntity" },
+            "vw": 0.43
+        },
+        {
+            "subject": { "type": "uri", "value": "http://dbpedia.org/resource/Japan" },
+            "predicate": { "type": "uri", "value": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" },
+            "object": { "type": "uri", "value": "http://dbpedia.org/class/yago/Country108544813" },
+            "vw": 0.63
+        },
+        {
+            "subject": { "type": "uri", "value": "http://dbpedia.org/resource/Japan" },
+            "predicate": { "type": "uri", "value": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" },
+            "object": { "type": "uri", "value": "http://dbpedia.org/class/yago/CountriesBorderingThePacificOcean" },
+            "vw": 0.77
+        },
+        {
+            "subject": { "type": "uri", "value": "http://dbpedia.org/resource/Japan" },
+            "predicate": { "type": "uri", "value": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" },
+            "object": { "type": "uri", "value": "http://dbpedia.org/class/yago/CountriesBorderingThePhilippineSea" },
+            "vw": 0.83
+        },
+        {
+            "subject": { "type": "uri", "value": "http://dbpedia.org/resource/Japan" },
+            "predicate": { "type": "uri", "value": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" },
+            "object": { "type": "uri", "value": "http://dbpedia.org/class/yago/District108552138" },
+            "vw": 0.53
+        },
+        {
+            "subject": { "type": "uri", "value": "http://dbpedia.org/resource/Japan" },
+            "predicate": { "type": "uri", "value": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" },
+            "object": { "type": "uri", "value": "http://dbpedia.org/class/yago/Region108630985" },
+            "vw": 0.49
+        },
+        {
+            "subject": { "type": "uri", "value": "http://dbpedia.org/resource/Japan" },
+            "predicate": { "type": "uri", "value": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" },
+            "object": { "type": "uri", "value": "http://www.w3.org/2003/01/geo/wgs84_pos#SpatialThing" },
+            "vw": 0.58
+        },
+        {
+            "subject": { "type": "uri", "value": "http://dbpedia.org/resource/Japan" },
+            "predicate": { "type": "uri", "value": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" },
+            "object": { "type": "uri", "value": "http://umbel.org/umbel/rc/Location_Underspecified" },
+            "vw": 0.61
+        },
+        {
+            "subject": { "type": "uri", "value": "http://dbpedia.org/resource/Japan" },
+            "predicate": { "type": "uri", "value": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" },
+            "object": { "type": "uri", "value": "http://www.w3.org/2002/07/owl#Thing" },
+            "vw": 0.71
+        },
+        {
+            "subject": { "type": "uri", "value": "http://dbpedia.org/resource/Japan" },
+            "predicate": { "type": "uri", "value": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" },
+            "object": { "type": "uri", "value": "http://dbpedia.org/class/yago/EastAsianCountries" },
+            "vw": 0.8
+        },
+        {
+            "subject": { "type": "uri", "value": "http://dbpedia.org/resource/Japan" },
+            "predicate": { "type": "uri", "value": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" },
+            "object": { "type": "uri", "value": "http://dbpedia.org/ontology/Country" },
+            "vw": 0.52
+        },
+        {
+            "subject": { "type": "uri", "value": "http://dbpedia.org/resource/Japan" },
+            "predicate": { "type": "uri", "value": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" },
+            "object": { "type": "uri", "value": "http://dbpedia.org/class/yago/Object100002684" },
+            "vw": 0.41
+        },
+        {
+            "subject": { "type": "uri", "value": "http://dbpedia.org/resource/Japan" },
+            "predicate": { "type": "uri", "value": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" },
+            "object": { "type": "uri", "value": "http://dbpedia.org/ontology/PopulatedPlace" },
+            "vw": 0.51
+        },
+        {
+            "subject": { "type": "uri", "value": "http://dbpedia.org/resource/Japan" },
+            "predicate": { "type": "uri", "value": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" },
+            "object": { "type": "uri", "value": "http://dbpedia.org/class/yago/AdministrativeDistrict108491826" },
+            "vw": 0.55
+        },
+        {
+            "subject": { "type": "uri", "value": "http://dbpedia.org/resource/Japan" },
+            "predicate": { "type": "uri", "value": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" },
+            "object": { "type": "uri", "value": "http://umbel.org/umbel/rc/Country" },
+            "vw": 0.65
+        },
+        {
+            "subject": { "type": "uri", "value": "http://dbpedia.org/resource/Japan" },
+            "predicate": { "type": "uri", "value": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" },
+            "object": { "type": "uri", "value": "http://dbpedia.org/class/yago/YagoLegalActorGeo" },
+            "vw": 0.42
+        },
+        {
+            "subject": { "type": "uri", "value": "http://dbpedia.org/resource/Japan" },
+            "predicate": { "type": "uri", "value": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" },
+            "object": { "type": "uri", "value": "http://dbpedia.org/class/yago/Economy108366753" },
+            "vw": 0.7
+        },
+        {
+            "subject": { "type": "uri", "value": "http://dbpedia.org/resource/Japan" },
+            "predicate": { "type": "uri", "value": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" },
+            "object": { "type": "uri", "value": "http://dbpedia.org/class/yago/YagoGeoEntity" },
+            "vw": 0.46
+        },
+        {
+            "subject": { "type": "uri", "value": "http://dbpedia.org/resource/Japan" },
+            "predicate": { "type": "uri", "value": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" },
+            "object": { "type": "uri", "value": "http://dbpedia.org/class/yago/Abstraction100002137" },
+            "vw": 0.75
+        },
+        {
+            "subject": { "type": "uri", "value": "http://dbpedia.org/resource/Japan" },
+            "predicate": { "type": "uri", "value": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" },
+            "object": { "type": "uri", "value": "http://dbpedia.org/class/yago/System108435388" },
+            "vw": 0.66
+        },
+        {
+            "subject": { "type": "uri", "value": "http://dbpedia.org/resource/Japan" },
+            "predicate": { "type": "uri", "value": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" },
+            "object": { "type": "uri", "value": "http://umbel.org/umbel/rc/PopulatedPlace" },
+            "vw": 0.59
+        },
+        {
+            "subject": { "type": "uri", "value": "http://dbpedia.org/resource/Japan" },
+            "predicate": { "type": "uri", "value": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" },
+            "object": { "type": "uri", "value": "http://dbpedia.org/ontology/Place" },
+            "vw": 0.6
+        },
+        {
+            "subject": { "type": "uri", "value": "http://dbpedia.org/resource/Japan" },
+            "predicate": { "type": "uri", "value": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" },
+            "object": { "type": "uri", "value": "http://dbpedia.org/class/yago/PhysicalEntity100001930" },
+            "vw": 0.4
+        },
+        {
+            "subject": { "type": "uri", "value": "http://dbpedia.org/resource/Japan" },
+            "predicate": { "type": "uri", "value": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" },
+            "object": { "type": "uri", "value": "http://schema.org/Place" },
+            "vw": 0.47
+        },
+        {
+            "subject": { "type": "uri", "value": "http://dbpedia.org/resource/Japan" },
+            "predicate": { "type": "uri", "value": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" },
+            "object": { "type": "uri", "value": "http://www.wikidata.org/entity/Q6256" },
+            "vw": 0.64
+        },
+        {
+            "subject": { "type": "uri", "value": "http://dbpedia.org/resource/Japan" },
+            "predicate": { "type": "uri", "value": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" },
+            "object": { "type": "uri", "value": "http://dbpedia.org/class/yago/Location100027167" },
+            "vw": 0.48
+        },
+        {
+            "subject": { "type": "uri", "value": "http://dbpedia.org/resource/Japan" },
+            "predicate": { "type": "uri", "value": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" },
+            "object": { "type": "uri", "value": "http://dbpedia.org/class/yago/IslandCountries" },
+            "vw": 0.76
+        },
+        {
+            "subject": { "type": "uri", "value": "http://dbpedia.org/resource/Japan" },
+            "predicate": { "type": "uri", "value": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" },
+            "object": { "type": "uri", "value": "http://dbpedia.org/class/yago/StatesAndTerritoriesEstablishedIn660BC" },
+            "vw": 1
+        },
+        {
+            "subject": { "type": "uri", "value": "http://dbpedia.org/resource/Japan" },
+            "predicate": { "type": "uri", "value": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" },
+            "object": { "type": "uri", "value": "http://schema.org/Country" },
+            "vw": 0.67
+        },
+        {
+            "subject": { "type": "uri", "value": "http://dbpedia.org/resource/Dashi" },
+            "predicate": { "type": "uri", "value": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" },
+            "object": { "type": "uri", "value": "http://dbpedia.org/class/yago/Concept105835747" },
+            "vw": 0.88
+        },
+        {
+            "subject": { "type": "uri", "value": "http://dbpedia.org/resource/Dashi" },
+            "predicate": { "type": "uri", "value": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" },
+            "object": { "type": "uri", "value": "http://dbpedia.org/class/yago/Feature105849789" },
+            "vw": 0.9
+        },
+        {
+            "subject": { "type": "uri", "value": "http://dbpedia.org/resource/Dashi" },
+            "predicate": { "type": "uri", "value": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" },
+            "object": { "type": "uri", "value": "http://www.w3.org/2002/07/owl#Thing" },
+            "vw": 0.86
+        },
+        {
+            "subject": { "type": "uri", "value": "http://dbpedia.org/resource/Dashi" },
+            "predicate": { "type": "uri", "value": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" },
+            "object": { "type": "uri", "value": "http://dbpedia.org/class/yago/Property105849040" },
+            "vw": 0.92
+        },
+        {
+            "subject": { "type": "uri", "value": "http://dbpedia.org/resource/Dashi" },
+            "predicate": { "type": "uri", "value": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" },
+            "object": { "type": "uri", "value": "http://www.wikidata.org/entity/Q2095" },
+            "vw": 0.93
+        },
+        {
+            "subject": { "type": "uri", "value": "http://dbpedia.org/resource/Dashi" },
+            "predicate": { "type": "uri", "value": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" },
+            "object": { "type": "uri", "value": "http://dbpedia.org/class/yago/Cognition100023271" },
+            "vw": 0.82
+        },
+        {
+            "subject": { "type": "uri", "value": "http://dbpedia.org/resource/Dashi" },
+            "predicate": { "type": "uri", "value": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" },
+            "object": { "type": "uri", "value": "http://dbpedia.org/class/yago/UmamiEnhancers" },
+            "vw": 0.99
+        },
+        {
+            "subject": { "type": "uri", "value": "http://dbpedia.org/resource/Dashi" },
+            "predicate": { "type": "uri", "value": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" },
+            "object": { "type": "uri", "value": "http://dbpedia.org/class/yago/Attraction105850823" },
+            "vw": 0.95
+        },
+        {
+            "subject": { "type": "uri", "value": "http://dbpedia.org/resource/Dashi" },
+            "predicate": { "type": "uri", "value": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" },
+            "object": { "type": "uri", "value": "http://dbpedia.org/class/yago/PsychologicalFeature100023100" },
+            "vw": 0.81
+        },
+        {
+            "subject": { "type": "uri", "value": "http://dbpedia.org/resource/Dashi" },
+            "predicate": { "type": "uri", "value": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" },
+            "object": { "type": "uri", "value": "http://dbpedia.org/ontology/Food" },
+            "vw": 0.94
+        },
+        {
+            "subject": { "type": "uri", "value": "http://dbpedia.org/resource/Dashi" },
+            "predicate": { "type": "uri", "value": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" },
+            "object": { "type": "uri", "value": "http://dbpedia.org/class/yago/Content105809192" },
+            "vw": 0.84
+        },
+        {
+            "subject": { "type": "uri", "value": "http://dbpedia.org/resource/Dashi" },
+            "predicate": { "type": "uri", "value": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" },
+            "object": { "type": "uri", "value": "http://dbpedia.org/class/yago/Foil105853924" },
+            "vw": 0.96
+        },
+        {
+            "subject": { "type": "uri", "value": "http://dbpedia.org/resource/Dashi" },
+            "predicate": { "type": "uri", "value": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" },
+            "object": { "type": "uri", "value": "http://dbpedia.org/class/yago/Attention105853636" },
+            "vw": 0.98
+        },
+        {
+            "subject": { "type": "uri", "value": "http://dbpedia.org/resource/Dashi" },
+            "predicate": { "type": "uri", "value": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" },
+            "object": { "type": "uri", "value": "http://dbpedia.org/class/yago/Abstraction100002137" },
+            "vw": 0.89
+        },
+        {
+            "subject": { "type": "uri", "value": "http://dbpedia.org/resource/Dashi" },
+            "predicate": { "type": "uri", "value": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" },
+            "object": { "type": "uri", "value": "http://dbpedia.org/class/yago/Idea105833840" },
+            "vw": 0.87
+        },
+        {
+            "subject": { "type": "uri", "value": "http://dbpedia.org/resource/Dashi" },
+            "predicate": { "type": "uri", "value": "http://xmlns.com/foaf/0.1/depiction" },
+            "object": { "type": "uri", "value": "http://commons.wikimedia.org/wiki/Special:FilePath/Katsuobushi.jpg" },
+            "vw": 0.04
+        },
+        {
+            "subject": { "type": "uri", "value": "http://dbpedia.org/resource/Dashi" },
+            "predicate": { "type": "uri", "value": "http://dbpedia.org/ontology/origin" },
+            "object": { "type": "uri", "value": "http://dbpedia.org/resource/Japan" },
+            "vw": 0.1
+        },
+        {
+            "subject": { "type": "uri", "value": "http://dbpedia.org/resource/Dashi" },
+            "predicate": { "type": "uri", "value": "http://xmlns.com/foaf/0.1/isPrimaryTopicOf" },
+            "object": { "type": "uri", "value": "http://en.wikipedia.org/wiki/Dashi" },
+            "vw": 0.02
+        },
+        {
+            "subject": { "type": "uri", "value": "http://dbpedia.org/resource/Dashi" },
+            "predicate": { "type": "uri", "value": "http://dbpedia.org/ontology/thumbnail" },
+            "object": { "type": "uri", "value": "http://commons.wikimedia.org/wiki/Special:FilePath/Katsuobushi.jpg?width=300" },
+            "vw": 0.01
+        },
+        {
+            "subject": { "type": "uri", "value": "http://dbpedia.org/resource/Dashi" },
+            "predicate": { "type": "uri", "value": "http://purl.org/dc/terms/subject" },
+            "object": { "type": "uri", "value": "http://dbpedia.org/resource/Category:Japanese_condiments" },
+            "vw": 0.06
+        },
+        {
+            "subject": { "type": "uri", "value": "http://dbpedia.org/resource/Dashi" },
+            "predicate": { "type": "uri", "value": "http://purl.org/dc/terms/subject" },
+            "object": { "type": "uri", "value": "http://dbpedia.org/resource/Category:Fish_and_seafood_soups" },
+            "vw": 0.07
+        },
+        {
+            "subject": { "type": "uri", "value": "http://dbpedia.org/resource/Dashi" },
+            "predicate": { "type": "uri", "value": "http://purl.org/dc/terms/subject" },
+            "object": { "type": "uri", "value": "http://dbpedia.org/resource/Category:Umami_enhancers" },
+            "vw": 0.05
+        },
+        {
+            "subject": { "type": "uri", "value": "http://dbpedia.org/resource/Dashi" },
+            "predicate": { "type": "uri", "value": "http://dbpedia.org/property/country" },
+            "object": { "type": "uri", "value": "http://dbpedia.org/resource/Japan" },
+            "vw": 0.08
+        },
+        {
+            "subject": { "type": "uri", "value": "http://dbpedia.org/resource/Category:Fish_and_seafood_soups" },
+            "predicate": { "type": "uri", "value": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" },
+            "object": { "type": "uri", "value": "http://www.w3.org/2004/02/skos/core#Concept" },
+            "vw": 0.31
+        },
+        {
+            "subject": { "type": "uri", "value": "http://en.wikipedia.org/wiki/Dashi" },
+            "predicate": { "type": "uri", "value": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" },
+            "object": { "type": "uri", "value": "http://xmlns.com/foaf/0.1/Document" },
+            "vw": 0.35
+        },
+        {
+            "subject": { "type": "uri", "value": "http://en.wikipedia.org/wiki/Dashi" },
+            "predicate": { "type": "uri", "value": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" },
+            "object": { "type": "uri", "value": "http://www.wikidata.org/ontology#Article" },
+            "vw": 0.34
+        },
+        {
+            "subject": { "type": "uri", "value": "http://dbpedia.org/class/yago/Abstraction100002137" },
+            "predicate": { "type": "uri", "value": "http://www.w3.org/2002/07/owl#equivalentClass" },
+            "object": { "type": "uri", "value": "http://yago-knowledge.org/resource/wordnet_abstraction_100002137" },
+            "vw": 0.19
+        },
+        {
+            "subject": { "type": "uri", "value": "http://dbpedia.org/class/yago/Attention105853636" },
+            "predicate": { "type": "uri", "value": "http://www.w3.org/2002/07/owl#equivalentClass" },
+            "object": { "type": "uri", "value": "http://yago-knowledge.org/resource/wordnet_attention_105853636" },
+            "vw": 0.25
+        },
+        {
+            "subject": { "type": "uri", "value": "http://dbpedia.org/class/yago/Attraction105850823" },
+            "predicate": { "type": "uri", "value": "http://www.w3.org/2002/07/owl#equivalentClass" },
+            "object": { "type": "uri", "value": "http://yago-knowledge.org/resource/wordnet_attraction_105850823" },
+            "vw": 0.23
+        },
+        {
+            "subject": { "type": "uri", "value": "http://dbpedia.org/class/yago/Cognition100023271" },
+            "predicate": { "type": "uri", "value": "http://www.w3.org/2002/07/owl#equivalentClass" },
+            "object": { "type": "uri", "value": "http://yago-knowledge.org/resource/wordnet_cognition_100023271" },
+            "vw": 0.14
+        },
+        {
+            "subject": { "type": "uri", "value": "http://dbpedia.org/class/yago/Concept105835747" },
+            "predicate": { "type": "uri", "value": "http://www.w3.org/2002/07/owl#equivalentClass" },
+            "object": { "type": "uri", "value": "http://yago-knowledge.org/resource/wordnet_concept_105835747" },
+            "vw": 0.18
+        },
+        {
+            "subject": { "type": "uri", "value": "http://dbpedia.org/class/yago/Content105809192" },
+            "predicate": { "type": "uri", "value": "http://www.w3.org/2002/07/owl#equivalentClass" },
+            "object": { "type": "uri", "value": "http://yago-knowledge.org/resource/wordnet_content_105809192" },
+            "vw": 0.16
+        },
+        {
+            "subject": { "type": "uri", "value": "http://dbpedia.org/class/yago/Feature105849789" },
+            "predicate": { "type": "uri", "value": "http://www.w3.org/2002/07/owl#equivalentClass" },
+            "object": { "type": "uri", "value": "http://yago-knowledge.org/resource/wordnet_feature_105849789" },
+            "vw": 0.2
+        },
+        {
+            "subject": { "type": "uri", "value": "http://dbpedia.org/class/yago/Idea105833840" },
+            "predicate": { "type": "uri", "value": "http://www.w3.org/2002/07/owl#equivalentClass" },
+            "object": { "type": "uri", "value": "http://yago-knowledge.org/resource/wordnet_idea_105833840" },
+            "vw": 0.17
+        },
+        {
+            "subject": { "type": "uri", "value": "http://dbpedia.org/class/yago/Property105849040" },
+            "predicate": { "type": "uri", "value": "http://www.w3.org/2002/07/owl#equivalentClass" },
+            "object": { "type": "uri", "value": "http://yago-knowledge.org/resource/wordnet_property_105849040" },
+            "vw": 0.22
+        },
+        {
+            "subject": { "type": "uri", "value": "http://dbpedia.org/class/yago/Foil105853924" },
+            "predicate": { "type": "uri", "value": "http://www.w3.org/2002/07/owl#equivalentClass" },
+            "object": { "type": "uri", "value": "http://yago-knowledge.org/resource/wordnet_foil_105853924" },
+            "vw": 0.24
+        },
+        {
+            "subject": { "type": "uri", "value": "http://dbpedia.org/class/yago/PsychologicalFeature100023100" },
+            "predicate": { "type": "uri", "value": "http://www.w3.org/2002/07/owl#equivalentClass" },
+            "object": { "type": "uri", "value": "http://yago-knowledge.org/resource/wordnet_psychological_feature_100023100" },
+            "vw": 0.13
+        },
+        {
+            "subject": { "type": "uri", "value": "http://dbpedia.org/class/yago/UmamiEnhancers" },
+            "predicate": { "type": "uri", "value": "http://www.w3.org/2002/07/owl#equivalentClass" },
+            "object": { "type": "uri", "value": "http://yago-knowledge.org/resource/wikicategory_Umami_enhancers" },
+            "vw": 0.27
+        }
+    ]
+}
