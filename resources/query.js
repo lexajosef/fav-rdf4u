@@ -130,6 +130,9 @@ function parseResult(response) {
     var finalData = { Triples: [], Labels: []};
     var actualTripple = [];
     var uriTriplesOnly = $("#cbObjectsOnly").is(':checked');
+    var checkVw = !$("#cbSlider").is(":checked");
+    var minVw = 0;
+    var maxVw = 0;
 
     jQuery.each(triples, function(i, triple) {
         // get subject, predicate and object values
@@ -144,12 +147,51 @@ function parseResult(response) {
             "subject": actualTripple[0],
             "predicate": actualTripple[1],
             "object" : actualTripple[2],
-            "vw": !$("#cbSlider").is(':checked') ? actualTripple[3].value : ""
+            "vw": checkVw ? actualTripple[3].value : ""
         });
-    });
-    console.log(finalData);
 
+        if (checkVw) {
+            if (actualTripple[3].value > maxVw) {
+                maxVw = actualTripple[3].value;
+            }
+            if (actualTripple[3].value < minVw) {
+                minVw = actualTripple[3].value;
+            }
+        }
+    });
+
+    vw1 = minVw;
+    vw2 = maxVw;
+    $("#slider-range").slider({
+        min: minVw,
+        max: maxVw,
+        values: [minVw, maxVw]
+    });
     createGraph(finalData);
+}
+
+function findSliderValues(respBody) {
+    var min = 0;
+    var max = 2;
+
+    if (!$("#cbSlider").is(":checked")) {
+        jQuery.each(respBody.Triples, function(i, triple) {
+            if (triple.vw > max) {
+                max = triple.vw;
+            }
+            if (triple.vw < min) {
+                min = triple.vw;
+            }
+        });
+
+        vw1 = min;
+        vw2 = max;
+        $("#slider-range").slider({
+            min: min,
+            max: max,
+            values: [min, max]
+        });
+    }
 }
 
 function queryGraph(isConstruct) {
@@ -184,7 +226,9 @@ function queryGraph(isConstruct) {
             url: url,
             success: function(response) {
                 $(".queryLoader").hide();
-                createGraph(JSON.parse(response));
+                respBody = JSON.parse(response);
+                findSliderValues(respBody);
+                createGraph(respBody);
             },
             error: function() {
                 $(".queryLoader").hide();
