@@ -7,8 +7,8 @@ var metaOntoNs = [
 
 var svgW = 5000;
 var svgH = 5000;
-var vw1 = 0.25;
-var vw2 = 0.75;
+var vw1 = 25;
+var vw2 = 75;
 
 var ignoredProps = [];
 var labels = [];
