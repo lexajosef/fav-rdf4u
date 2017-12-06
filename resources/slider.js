@@ -10,14 +10,14 @@ $(function() {
         range: true,
         min: 0,
         max: 100,
-        values: [vw1*100, vw2*100],
+        values: [vw1, vw2],
         slide: function(event, ui) {
             $("#amount").text(ui.values[0] + " - " + ui.values[1]);
         },
         stop: function(event, ui) {
-            vw1 = ui.values[0] / 100.0;
-            vw2 = ui.values[1] / 100.0;
-            filterUpdate(vw1, vw2);filterUpdate(vw1, vw2);
+            vw1 = ui.values[0]; // 100.0;
+            vw2 = ui.values[1]; // 100.0;
+            filterUpdate(vw1, vw2);
         }
     });
 
